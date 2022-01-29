@@ -1,0 +1,43 @@
+-------------------------------------------------------------------------------
+Test set: com.homework5.AppTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 171.075 s <<< FAILURE! - in com.homework5.AppTest
+test2(com.homework5.AppTest)  Time elapsed: 7.751 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="javascript:void(0)" class="disabled" disabled="disabled" id="wag-rxuser-continue-btm" aria-disabled="true" role="button" tabindex="-1">...</a> is not clickable at point (707, 686). Other element would receive the click: <section class="col-lg-12 p0 check-box__blue wag-rxuser-botton hidden-xs">...</section>
+  (Session info: chrome=97.0.4692.99)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'DESKTOP-DI8SEQA', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [661badeb5bd0ecc0a81a51b680a6f788, clickElement {id=ff814602-66a1-489e-b0ae-ee274e3434e6}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\Julian\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49322}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49322/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (661badeb5bd0ecc0a81a51b680a6f788)] -> xpath: //*[@id="wag-rxuser-continue-btm"]]
+Session ID: 661badeb5bd0ecc0a81a51b680a6f788
+	at com.homework5.AppTest.test2(AppTest.java:58)
+
+test4(com.homework5.AppTest)  Time elapsed: 13.015 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/header/div[1]/nav/div/div/div[4]/div/a/span[2]"}
+  (Session info: chrome=97.0.4692.99)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'DESKTOP-DI8SEQA', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4b2a0054d6bef6ea0f0e25b338e038b7, findElement {using=xpath, value=/html/body/header/div[1]/nav/div/div/div[4]/div/a/span[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\Julian\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49477}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49477/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4b2a0054d6bef6ea0f0e25b338e038b7
+	at com.homework5.AppTest.test4(AppTest.java:78)
+
+test8(com.homework5.AppTest)  Time elapsed: 16.713 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#addtocartdialog > div.modal__content-contain.modal__small.wag-add-to-cart-modal.modal__white > div > div:nth-child(3) > ul > li:nth-child(1) > button"}
+  (Session info: chrome=97.0.4692.99)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'DESKTOP-DI8SEQA', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [93e3388fffee4b1abeed63d9340086db, findElement {using=css selector, value=#addtocartdialog > div.modal__content-contain.modal__small.wag-add-to-cart-modal.modal__white > div > div:nth-child(3) > ul > li:nth-child(1) > button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\Julian\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49799}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49799/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 93e3388fffee4b1abeed63d9340086db
+	at com.homework5.AppTest.test8(AppTest.java:116)
+
